@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+button {  
+        width: 30%;
+        color: #B961D0;
+        padding: 10px;
+        margin: 10px;  
+        cursor: pointer;
+         }
+  .id {
+     color:aqua;
+    }
+ input[type=text], input[type=password] {
+        width: 60%;
+        margin: 8px;
+        padding: 12px;
+        display: inline-block;
+    }
+  .cancelbtn {
+        padding: 10px;
+        margin: 10px;
+    }
+     
+   
+ .container {
+        max-width:400px;
+        padding: 25px;
+        background-color:#4CA49F;
+    }
+</style>
+</head>  
+<body>  
+    <center style="color:#D64169;"> <h1>Login Page </h1> </center>
+<form>
+  <center>
+        <div class="container" style="text-align:left">
+            <label class="id">Username : </label> <br>
+            <input type="text" placeholder="Enter Username" name="username" required><br>
+            <label class="id">Password : </label> <br>
+            <input type="password" placeholder="Enter Password" name="password" required><br>
+            <input type="checkbox"> Remember me <br><br>
+            <button type="button" class="cancelbtn"> Cancel</button>
+            <div style="text-align:right"><button type="submit">Login</button></div>
+            <div style="color:white;"><a href="#"> Forgot password? </a></div>
+        </div>   </center>
+</form>
+</body>  
+</html>
